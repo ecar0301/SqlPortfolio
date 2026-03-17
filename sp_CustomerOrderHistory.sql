@@ -1,3 +1,23 @@
+
+-- Author: Edmond Carter
+-- Project: SQL Portfolio
+-- Stored Procedure: sp_CustomerOrderHistory
+
+-- Description:
+-- This stored procedure retrieves the order history for a specific customer.
+-- It joins Orders, Order Details, and Products tables to display the products
+-- purchased along with the total quantity ordered for each product.
+
+-- Parameter:
+-- @CustomerID = The ID of the customer whose order history is being retrieved
+
+-- Logic:
+-- 1. Filter Orders by the given CustomerID
+-- 2. Join Orders to Order Details to get product-level data
+-- 3. Join Products to get product names
+-- 4. Aggregate total quantity purchased per product
+-- 5. Sort results by total quantity in descending order
+
 USE [NORTHWND]
 GO
 
@@ -7,7 +27,24 @@ GO
 
 SET QUOTED_IDENTIFIER ON
 GO
+-- Author: Edmond Carter
+-- Project: SQL Portfolio
+-- Stored Procedure: sp_CustomerOrderHistory
 
+-- Description:
+-- This stored procedure retrieves the order history for a specific customer.
+-- It joins Orders, Order Details, and Products tables to display the products
+-- purchased along with the total quantity ordered for each product.
+
+-- Parameter:
+-- @CustomerID = The ID of the customer whose order history is being retrieved
+
+-- Logic:
+-- 1. Filter Orders by the given CustomerID
+-- 2. Join Orders to Order Details to get product-level data
+-- 3. Join Products to get product names
+-- 4. Aggregate total quantity purchased per product
+-- 5. Sort results by total quantity in descending order
 
 	 CREATE PROCEDURE [dbo].[sp_CustomerOrderHistory]
 		@CustomerID NCHAR (20)
