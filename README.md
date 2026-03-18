@@ -7,20 +7,19 @@ This repository showcases my SQL Server skills through real-world styled stored 
 - SQL Server
 - T-SQL
 - SSMS
-
 ## Stored Procedures
 
 ### 1. sp_GetCustomerSales
-Retrieves total sales for customers within a date range and filters by minimum sales amount.
+Calculates total sales for customers within a specified date range. Demonstrates joins, aggregation (SUM), filtering, and grouping.
 
 ### 2. sp_CustomerOrderHistory
-Retrieves the order history for a specific customer, including products purchased and total quantities.
+Returns product purchase history for a specific customer, including total quantity and total sales. Demonstrates joins, grouping, and parameter filtering.
 
-### 3. sp_GetCustomerByDate
-Returns customer order data filtered by a specific date range.
+### 3. sp_GetCustomersByDate
+Returns customers who placed orders within a date range, including total orders and total sales. Demonstrates CTEs, aggregation, and business logic filtering.
 
-### 4. sp_GetLowInventory
-Identifies products with stock levels below a specified reorder threshold.
+### 4. sp_GetLowInventoryProducts
+Identifies products with low inventory based on reorder levels. Demonstrates filtering, joins, and operational reporting logic.
 
 ## Key Skills Demonstrated
 - Joins (INNER JOIN, multiple tables)
