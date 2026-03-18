@@ -1,12 +1,7 @@
-USE [NORTHWND]
-GO
+*/
+   Returns the top selling products within each category based on total sales. Uses CTE'S AND ROW_NUMBER with PARTITION BY to 
+ rank products, demonstrating advanced sql techniques for grouped ranking. /*
 
-/****** Object:  StoredProcedure [dbo].[sp_GetTopProductsByCategory]    Script Date: 3/17/2026 2:52:32 PM ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
 
 CREATE PROCEDURE [dbo].[sp_GetTopProductsByCategory]
     @CategoryID INT = NULL,
