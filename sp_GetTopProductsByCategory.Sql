@@ -1,6 +1,10 @@
-*/
+/*
+ Author:Edmond Carter
+ Procedure: sp_GetTopProductsByCategory
+ Description:
    Returns the top selling products within each category based on total sales. Uses CTE'S AND ROW_NUMBER with PARTITION BY to 
- rank products, demonstrating advanced sql techniques for grouped ranking. /*
+   rank products, demonstrating advanced sql techniques for grouped ranking. 
+*/
 
 
 CREATE PROCEDURE [dbo].[sp_GetTopProductsByCategory]
