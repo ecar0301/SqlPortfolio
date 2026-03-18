@@ -1,13 +1,3 @@
-USE [NORTHWND]
-GO
-
-/****** Object:  StoredProcedure [dbo].[sp_GetCustomersByDate]    Script Date: 3/17/2026 3:28:15 PM ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
 /*
 Author: Edmond Carter
 Procedure: sp_GetCustomersByDate
@@ -16,7 +6,8 @@ Description:
 Returns customers who placed orders within a given date range.
 Includes total orders, total sales, first order date, and last order date.
 Supports an optional country filter and minimum order threshold.
-*/
+/*
+
 
 CREATE PROCEDURE [dbo].[sp_GetCustomersByDate]
     @StartDate DATE,
@@ -47,8 +38,8 @@ BEGIN
             RETURN;
         END;
 
-        ;WITH CustomerSales AS
-        (
+        ;WITH CustomerSales AS(
+        
             SELECT
                 c.CustomerID,
                 c.CompanyName,
@@ -88,5 +79,5 @@ BEGIN
             ERROR_MESSAGE() AS ErrorMessage;
     END CATCH
 END;
-GO
+
 
