@@ -1,13 +1,3 @@
-USE [NORTHWND]
-GO
-
-/****** Object:  StoredProcedure [dbo].[sp_CustomerOrderHistory]    Script Date: 3/17/2026 4:19:36 PM ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
 /*
 Author: Edmond Carter
 Procedure: sp_CustomerOrderHistory
@@ -16,6 +6,8 @@ Description:
 Returns product purchase history for a specific customer.
 Includes total quantity, total sales, and optional date filtering.
 */
+
+
 
 CREATE PROCEDURE [dbo].[sp_CustomerOrderHistory]
     @CustomerID NCHAR(5),
