@@ -1,13 +1,3 @@
-USE [NORTHWND]
-GO
-
-/****** Object:  StoredProcedure [dbo].[sp_GetLowInventoryProducts]    Script Date: 3/17/2026 3:45:45 PM ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
 /*
 Author: Edmond Carter
 Procedure: sp_GetLowInventoryProducts
@@ -17,6 +7,8 @@ Returns products with low inventory based on reorder level or a custom threshold
 Supports optional category filtering and active-product filtering.
 Includes supplier and category details, plus inventory status logic.
 */
+
+
 
 CREATE PROCEDURE [dbo].[sp_GetLowInventoryProducts]
     @Threshold INT = NULL,
