@@ -47,7 +47,7 @@ This SSIS package extracts top-selling products by category from the Northwind d
 - Visual Studio
 
 ### Control Flow
-
+![image alt](https://github.com/ecar0301/SqlPortfolio/blob/6b2bab67ea0860cd6c32b6eda586b2424161b459/SSIS-TopProductsByCategory-ETL/screenshots/Screenshot%202026-03-22%20012316.png)
 ### Data Flow
 ![image alt](https://github.com/ecar0301/SqlPortfolio/blob/a28f2222ced5b4380a5a2a144448c3718c9c1981/SSIS-TopProductsByCategory-ETL/screenshots/Screenshot%202026-03-22%20012331.png)
 
