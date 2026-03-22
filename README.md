@@ -36,4 +36,24 @@ Ranks top-selling products by category using ROW_NUMBER(). Demonstrates window f
 3. Execute the stored procedure script
 4. Run using EXEC with parameters
 
-Example:
+## SSIS Project – Top Products by Category ETL
+
+### Overview
+This SSIS package extracts top-selling products by category from the Northwind database using a stored procedure. The data flows through an OLE DB Source into an OLE DB Destination, demonstrating ETL pipeline design and execution.
+
+### Tools Used
+- SQL Server Integration Services (SSIS)
+- SQL Server (Northwind Database)
+- Visual Studio
+
+### Control Flow
+![Control Flow](SSIS-TopProductsByCategory-ETL/screenshots/controlflow.png)
+
+### Data Flow
+![Data Flow](SSIS-TopProductsByCategory-ETL/screenshots/dataflow.png)
+
+### Foreach Loop Container
+![Foreach Loop](SSIS-TopProductsByCategory-ETL/screenshots/foreach.png)
+
+### Recordset Destination
+![Recordset](SSIS-TopProductsByCategory-ETL/screenshots/recordset.png)
