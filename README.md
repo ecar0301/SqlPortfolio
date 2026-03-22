@@ -50,7 +50,7 @@ This SSIS package extracts top-selling products by category from the Northwind d
 ![Control Flow](SSIS-TopProductsByCategory-ETL/screenshots/controlflow.png)
 
 ### Data Flow
-![Data Flow](screenshots/dataflow.png)
+![Data Flow](SSIS-TopProductsByCategory-ETL/screenshots/dataflow.png)
 
 ### Foreach Loop Contaimag
 ![image alt](image url)https://github.com/ecar0301/SqlPortfolio/blob/e75fe7bf2a8cde720d752c5d37aad03c66b5c055/README.md
