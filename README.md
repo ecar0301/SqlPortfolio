@@ -52,9 +52,8 @@ This SSIS package extracts top-selling products by category from the Northwind d
 ### Data Flow
 ![Data Flow](SSIS-TopProductsByCategory-ETL/screenshots/dataflow.png)
 
-### Foreach Loop Container
-![Foreach Loop](SSIS-TopProductsByCategory-ETL/screenshots/foreach.png)
-
+### Foreach Loop Contaimag
+![image alt](image url)https://github.com/ecar0301/SqlPortfolio/blob/e75fe7bf2a8cde720d752c5d37aad03c66b5c055/README.md
 ### Recordset Destination
 ![Recordset](SSIS-TopProductsByCategory-ETL/screenshots/recordset.png)
 ![image alt](image_url)https://github.com/ecar0301/SqlPortfolio/blob/e75fe7bf2a8cde720d752c5d37aad03c66b5c055/SSIS-TopProductsByCategory-ETL/screenshots/Recordset
