@@ -48,11 +48,12 @@ This SSIS package extracts top-selling products by category from the Northwind d
 
 ### Control Flow
 ![image alt](https://github.com/ecar0301/SqlPortfolio/blob/6b2bab67ea0860cd6c32b6eda586b2424161b459/SSIS-TopProductsByCategory-ETL/screenshots/Screenshot%202026-03-22%20012316.png)
+
 ### Data Flow
 ![image alt](https://github.com/ecar0301/SqlPortfolio/blob/a28f2222ced5b4380a5a2a144448c3718c9c1981/SSIS-TopProductsByCategory-ETL/screenshots/Screenshot%202026-03-22%20012331.png)
 
 ### Foreach Loop Contaimag
-![image alt](https://github.com/ecar0301/SqlPortfolio/blob/e75fe7bf2a8cde720d752c5d37aad03c66b5c055/README.md)
+![image alt](https://github.com/ecar0301/SqlPortfolio/blob/96009582024d7a8ddce37c8b844d4c31507141cb/SSIS-TopProductsByCategory-ETL/screenshots/Screenshot%202026-03-22%20012248.png)
+
 ### Recordset Destination
-![Recordset](SSIS-TopProductsByCategory-ETL/screenshots/recordset.png)
-![image alt](image_url)https://github.com/ecar0301/SqlPortfolio/blob/e75fe7bf2a8cde720d752c5d37aad03c66b5c055/SSIS-TopProductsByCategory-ETL/screenshots/Recordset
+![image alt](https://github.com/ecar0301/SqlPortfolio/blob/e75fe7bf2a8cde720d752c5d37aad03c66b5c055/SSIS-TopProductsByCategory-ETL/screenshots/Recordset)
